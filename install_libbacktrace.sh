@@ -1,4 +1,5 @@
 #!/bin/bash -e
+set -x #echo on
 cd ~
 git clone https://github.com/ianlancetaylor/libbacktrace.git
 cd libbacktrace

@@ -1,4 +1,5 @@
 #!/bin/bash -e
+set -x #echo on
 cd ~
 wget https://github.com/google/googletest/archive/release-1.10.0.tar.gz
 tar xvf release-1.10.0.tar.gz

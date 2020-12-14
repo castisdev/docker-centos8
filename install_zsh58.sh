@@ -1,4 +1,5 @@
 #!/bin/sh -e
+set -x #echo on
 yum install -y ncurses-devel; yum clean all -y
 sed -i -e 's/Defaults    requiretty.*/ #Defaults    requiretty/g' /etc/sudoers
 cd ~

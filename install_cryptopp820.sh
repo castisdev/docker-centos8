@@ -1,4 +1,5 @@
 #!/bin/bash -e
+set -x #echo on
 cd ~
 wget --no-check-certificate https://www.cryptopp.com/cryptopp820.zip
 unzip cryptopp820.zip -d cryptopp
